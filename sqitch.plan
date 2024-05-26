@@ -3,3 +3,4 @@
 %uri=https://github.com/hadi-darwish/evently/
 
 appschema 2024-05-25T21:45:35Z 'hadid' <hadid@DARWISH-92698> # Add schema for all flipr objects.
+users [appschema] 2024-05-26T11:11:14Z 'hadi' <'hadi.darwish.03@gmail.com'> # Creates table to track our users.
