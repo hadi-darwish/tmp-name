@@ -4,3 +4,5 @@
 
 appschema 2024-05-25T21:45:35Z 'hadid' <hadid@DARWISH-92698> # Add schema for all flipr objects.
 users [appschema] 2024-05-26T11:11:14Z 'hadi' <'hadi.darwish.03@gmail.com'> # Creates table to track our users.
+insert_user [users appschema] 2024-05-26T12:14:12Z 'hadi' <'hadi.darwish.03@gmail.com'> # Creates a function to insert a user.
+change_pass [users appschema] 2024-05-26T12:15:07Z 'hadi' <'hadi.darwish.03@gmail.com'> # Creates a function to change a user password.
