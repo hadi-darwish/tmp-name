@@ -6,7 +6,7 @@ BEGIN;
 -- XXX Add DDLs here.
 SET client_min_messages = 'warning';
 
-CREATE TYPE gender AS ENUM ('male', 'female');
+CREATE TYPE IF NOT EXISTS gender AS ENUM ('male', 'female');
 
 CREATE TABLE IF NOT EXISTS evently.users (
   id SERIAL PRIMARY KEY,

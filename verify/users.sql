@@ -7,4 +7,11 @@ SELECT id, username, password, email, phone_number, address, city, gender, creat
     FROM evently.users
 WHERE FALSE;
 
+-- check if there is a Type named gender
+SELECT EXISTS (
+    SELECT 1
+    FROM pg_type
+    WHERE typname = 'gender'
+);
+
 ROLLBACK;
