@@ -8,3 +8,4 @@ insert_user [users appschema] 2024-05-26T12:14:12Z 'hadi' <'hadi.darwish.03@gmai
 change_pass [users appschema] 2024-05-26T12:15:07Z 'hadi' <'hadi.darwish.03@gmail.com'> # Creates a function to change a user password.
 add_roles_table 2024-06-21T12:36:40Z 'hadi' <'hadi.darwish.03@gmail.com'> # Adds the roles table to the evently schema
 add_user_role 2024-06-21T12:49:28Z 'hadi' <'hadi.darwish.03@gmail.com'> # Adds a role_id column to the users table to reference roles.
+create_organizers_table 2024-06-21T12:57:59Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the organizers table in the evently schema.
