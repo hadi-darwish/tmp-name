@@ -14,3 +14,4 @@ create_categories_table 2024-06-21T13:04:41Z 'hadi' <'hadi.darwish.03@gmail.com'
 create_events_table 2024-06-28T09:33:17Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the events table in the evently schema.
 create_ticket_types_table 2024-06-28T09:35:39Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the ticket_types table in the evently schema.
 create_tickets_table 2024-06-28T09:38:18Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the tickets table in the evently schema.
+create_registrations_table 2024-06-28T09:49:02Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the registrations table in the evently schema.
