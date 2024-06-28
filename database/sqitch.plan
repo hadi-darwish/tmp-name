@@ -10,3 +10,5 @@ add_roles_table 2024-06-21T12:36:40Z 'hadi' <'hadi.darwish.03@gmail.com'> # Adds
 add_user_role 2024-06-21T12:49:28Z 'hadi' <'hadi.darwish.03@gmail.com'> # Adds a role_id column to the users table to reference roles.
 create_organizers_table 2024-06-21T12:57:59Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the organizers table in the evently schema.
 create_attendees_table 2024-06-21T13:00:45Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the attendees table in the evently schema.
+create_categories_table 2024-06-21T13:04:41Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the categories table in the evently schema.
+create_ticket_types_table 2024-06-28T09:35:39Z 'hadi' <'hadi.darwish.03@gmail.com'> # Create the ticket_types table in the evently schema.
