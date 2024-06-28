@@ -3,10 +3,15 @@
 
 BEGIN;
 
--- XXX Add DDLs here.
 SET client_min_messages = 'warning';
 
-CREATE TYPE IF NOT EXISTS gender AS ENUM ('male', 'female');
+DO $$
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'gender') THEN
+        CREATE TYPE gender AS ENUM ('male', 'female');
+    END IF;
+END
+$$;
 
 CREATE TABLE IF NOT EXISTS evently.users (
   id SERIAL PRIMARY KEY,
